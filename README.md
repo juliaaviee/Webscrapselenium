@@ -1,40 +1,29 @@
 # Webscrapselenium
 Pegando dados de endereços de bases do site da FAB
 workflow:
-[ INÍCIO ]
-    |
-    v
-[ Lista de URLs por estado ]
-    |
-    v
-[ Para cada URL de estado ]
-    |
-    v
-[ Abrir página do estado ]
-    |
-    v
-[ Coletar todos os links das unidades ]
-    |
-    v
-[ Para cada link de unidade ]
-    |
-    v
-[ Abrir página da unidade ]
-    |
-    v
-[ Extrair nome, endereço, CEP, cidade, estado ]
-    |
-    v
-[ Salvar os dados numa lista ]
-    |
-    v
-[ Repetir para todas as unidades ]
-    |
-    v
-[ Criar DataFrame com Pandas ]
-    |
-    v
-[ Exportar para Excel na pasta Downloads ]
-    |
-    v
-[ FIM ]
+
+INÍCIO
+
+1 - lista de URLs por estado
+
+2 - Para cada URL de estado
+
+3 - Abrir página do estado
+
+4 - Coletar todos os links das unidades
+
+5 - Para cada link de unidade 
+
+6 - Abrir página da unidade 
+
+7 - Extrair nome, endereço, CEP, cidade, estado 
+
+8 - Salvar os dados numa lista 
+
+9 - Repetir para todas as unidades 
+
+10 - Criar DataFrame com Pandas 
+
+11 - Exportar para Excel na pasta Downloads 
+
+FIM
