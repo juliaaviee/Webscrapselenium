@@ -41,12 +41,12 @@ links_estados = [
 
 # Setup Selenium
 options = webdriver.ChromeOptions()
-# options.add_argument('--headless')  # Ative se quiser rodar sem abrir o navegador
+# options.add_argument('--headless')  #  rodar sem abrir o navegador
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 dados = []
 
-# Função para extrair dados de uma página de unidade
+# Extrair dados de uma página de unidade
 def extrair_dados(link):
     driver.get(link)
     time.sleep(2)
